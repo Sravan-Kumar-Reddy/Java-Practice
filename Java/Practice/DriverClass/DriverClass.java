@@ -10,7 +10,7 @@ import java.util.function.BiConsumer;
 //interface Addable{
 //    int add(int a,int b);
 //}
-public class DriverClass {
+/*public class DriverClass {
     public static void main(String[] args) {
         FunctionalInterfaceExample functionalInterfaceExample = new FunctionalInterfaceExample();
         functionalInterfaceExample.add(4,5);
@@ -25,4 +25,4 @@ public class DriverClass {
     }
 
 
-}
+}*/

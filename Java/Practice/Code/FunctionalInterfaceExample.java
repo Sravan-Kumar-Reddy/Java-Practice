@@ -1,10 +1,13 @@
+/*
 package Java.Practice.Code;
 
 @FunctionalInterface
 interface Addable{
-//    int add(int a,int b);
+    int add(int a,int b);
 
-    void add(int a, int b);
+    default int add2Numbers(int a,int b){
+        return a+b;
+    }
 }
 public class FunctionalInterfaceExample implements Addable{
 
@@ -17,4 +20,4 @@ public class FunctionalInterfaceExample implements Addable{
         System.out.println(a+b);
 //        return a+b;
     }
-}
+}*/
